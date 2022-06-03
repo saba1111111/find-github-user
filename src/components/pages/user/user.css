@@ -1,0 +1,80 @@
+/*full user information */
+.user-information {
+    background: #34495e;
+    padding: 30px 30px;
+    border-radius: 10px;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+.user-information image {
+    width: 30%;
+    margin-right: 30px;
+
+}
+.user-content {
+    padding: 10px;
+}
+.user-information .image img {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.more-data img {
+    width: 30px;
+    margin-top: 2px;
+}
+#sbs {
+    color: white;
+}
+
+/*button which allows go back */
+.back {
+    background-color: green;
+    color: white;
+    border-radius:7px;
+    padding: 10px;
+    display: inline-block;
+    margin: 6px 0;
+}
+/*information about repos */
+.user-repos {
+    background-color: #f5f5f5;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.repo {
+    padding: 20px;
+    border-bottom: 2px solid #444;
+}
+
+.repo a {
+    color: #6cc644;
+}
+
+.imgfirst {
+    width: 50px;
+    height: 230px;
+}
+/*responsive screen */
+@media (max-width: 700px) {
+    .user-information {
+        width: 550px;
+        padding: 10px 10px;
+    }
+    .user-repos {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .user-information {
+        height: 470px;
+        width: 350px;
+        flex-direction:  column;
+        margin-left: 30px;
+    }
+    
+}

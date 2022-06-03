@@ -1,0 +1,70 @@
+/*search form to find users */
+.search-form {
+    background: #34495e;
+    padding: 10px 40px;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.search-form input {
+    width: 70%;
+}
+.search-form form {
+    margin: 10px 0;
+}
+.search-form input, .search-form button {
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+.search-form button {
+    padding: 14px 40px;
+    background: #3498db;
+    margin: 0 8px;
+}
+/*users who are suitable for search */
+.search-results {
+    background-color: #f5f5f5;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.user {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: 2px solid  #34495e;
+}
+.user .img  {
+    width: 20%;
+}
+.user .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+.user-info *{
+    display: block;
+    padding: 0 10px;
+}
+.button:active {
+    transform: scale(1.05);
+}
+/*responsive screen*/
+@media (max-width: 600px) {
+    .search-form form {
+        margin-left: -30px;
+    }
+    .search-form input {
+        width: 55%;
+    }
+    .search-results {
+        width: 500px;
+    }
+}
